@@ -1,0 +1,117 @@
+#skill{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skillTitle{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2rem;
+    padding-top: 3rem;
+}
+.skillDescription{
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 50rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.skillsContainer{
+    margin:1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.skillImg{
+    height: 15vh;
+    border-radius: 3rem;
+}
+
+.skillBarText{
+    margin-left: 2rem;
+}
+
+.skillBarText h2{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:720px) {
+    #skill{
+        overflow: hidden;
+        width: 100vw;
+        max-width: 50rem;
+        margin: 0 auto;
+        text-align: justify;
+        word-wrap: break-word;
+        padding: 1rem;
+    }
+    
+    .skillTitle{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 1rem;
+        padding-top: 2rem;
+        text-align: left;
+    }
+    .skillDescription{
+        font-size: 1rem;
+        font-weight: 200;
+        max-width: 50rem;
+        padding: 0 1rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skillsContainer{
+        margin:1.5rem;
+        width: 100vw;
+        max-width: 100%;
+    }
+    
+    .skillBar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        text-align: center;  
+    }
+    
+    .skillImg{
+        height: 10vh;
+        border-radius: 2rem;
+    }
+    
+    .skillBarText{
+        margin-top: 1.2rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+    .skillBarText h2{
+        margin-bottom: 1rem;
+    }
+}

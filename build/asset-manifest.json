@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07fc6d5a.css",
+    "main.js": "/static/js/main.40597aaf.js",
+    "static/media/project1.jpg": "/static/media/project1.bd26fd4485d7ab634331.jpg",
+    "static/media/project3.jpg": "/static/media/project3.b96eccef5b72f156325d.jpg",
+    "static/media/fsd.png": "/static/media/fsd.c9ff7d4292ec2e692168.png",
+    "static/media/project2.jpg": "/static/media/project2.c6c8500e631d95e94041.jpg",
+    "static/media/image.png": "/static/media/image.d5a597f6931f8224f832.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.2f38cb396c34eb3f68ee.png",
+    "static/media/logo.png": "/static/media/logo.45d89da9c233a7da0ed5.png",
+    "static/media/react.png": "/static/media/react.52f26002ca0164678dda.png",
+    "static/media/mongo.png": "/static/media/mongo.7aa07885a6010f3c7610.png",
+    "static/media/html.png": "/static/media/html.65ea2ea7565c9917d76c.png",
+    "static/media/express.png": "/static/media/express.e6892d0c4d02db90c0fb.png",
+    "static/media/node.png": "/static/media/node.ebeee402d1989f08aab2.png",
+    "static/media/education.png": "/static/media/education.6364c0506e8ce7166a08.png",
+    "static/media/work.png": "/static/media/work.8e7c795e53e855b9acb0.png",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/index.html",
+    "main.07fc6d5a.css.map": "/static/css/main.07fc6d5a.css.map",
+    "main.40597aaf.js.map": "/static/js/main.40597aaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07fc6d5a.css",
+    "static/js/main.40597aaf.js"
+  ]
+}

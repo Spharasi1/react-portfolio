@@ -1,0 +1,104 @@
+#project{
+      padding: 5rem;
+      margin-top: 2rem;
+}
+.projectContainer>h2, .projectContainer>p
+{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.projectContainer>h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.projectContainer>p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.projectCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1rem;
+    color: black;
+    background: rgba(182, 105, 255, 1);;
+    border-radius: 10px;
+    line-height: 1.5rem;
+}
+
+.card p, .card h3{
+    margin-top: 2rem;
+}
+.description, .projectName{
+    margin-right: 0.75rem;
+    font-weight: 600;
+}
+.card a{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.link{
+margin-top: 2rem;
+text-align: center;
+}
+.projectImg{
+    object-fit: contain;
+    height: 30vh;
+    width:25vw;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:720px) {
+    #project{
+        padding: 0;
+    }
+    
+    .projectCards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        padding: .75rem;
+    }
+
+    .projectImg{
+        height: 30vh;
+        width: 80vw;
+        object-fit: contain;
+    }
+    .link{
+        text-align: start;
+
+    }
+    .link a{
+        font-size: 0.75rem;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width:1024px) {
+    .card{
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .projectImg{
+        height: 30vh;
+        width: 65vw;
+        object-fit: contain;
+    }
+    .projectCards{
+        display: flex;
+        flex-direction: column;
+    }
+}
